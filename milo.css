@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style-type:none;
+
+}
+nav{
+    padding: 35px 85px ;
+}
+.button button{
+    border: none;
+    gap: 1;
+    font-weight: bold;
+    margin-top: 9px;
+}
+.button{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+}
+.search{    
+    border-radius: 25px;
+    padding: 5px;
+    width: 130px;
+
+}
+.color{
+    background-color: rgb(236, 234, 234);
+    height: 19rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.img :hover{
+    transform: translate(-0%,-5%);
+    box-shadow:rgb(59, 58, 58) 0px 18px 32px -18px;
+
+}
+.another_container{
+    height: 30rem !important;
+}
+.padding_none div{
+    padding-top: 0;
+    margin-top: 0;
+}
+body{
+  overflow-x: hidden;
+}

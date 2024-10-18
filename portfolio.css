@@ -1,0 +1,11 @@
+.re li:hover{
+    background-color:white;
+    border-radius: 10px;
+}
+.navbar-brand:hover{
+background-color: white;
+border-radius: 10px;
+}
+.nv{
+    background-color: crimson;
+}
